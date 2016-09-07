@@ -11,7 +11,86 @@
 <!-- body：体 -->
 <body>
 
+  <!-- 框架、链接 -->
+  <iframe src="http://www.w3cschool.cc/" width="1500" height="500" frameborder="0">
+ <p>您的浏览器不支持  iframe 标签。</p>
+</iframe>
+
+  <!-- 表单 -->
+<!--  form标签是一个表单标签
+      表单用来向服务器发送数据
+      action表示表单的提交地址 此处不讲提交所有使用#表示
+      form也可以当做一个容器
+
+      ul 列表
+      li 列表项
+      input 输入框  type="text"表示一个基本的输入框
+-->
+  <form action="#">
+  <ul>
+    <li>
+        姓名<input type="text">
+    </li>
+    <li>
+      性别:
+      <input name=“gender” type="radio" value="男">男
+      <input name=“gender” type="radio" value="女">女
+    </li>
+    <li>
+      爱好：
+      <input name="hobby" type="checkbox" value="吃饭">吃饭
+      <input name="hobby" type="checkbox" value="睡觉">睡觉
+      <input name="hobby" type="checkbox" value="逛街">逛街
+    </li>
+    <li>
+      <!--  当我的input设置type=”submit”的时候
+          点击之后会触发表单提交事件
+    -->
+      <input type="submit" value="提交">
+    </li>
+  </ul>
+
+  </form>
+  <form>
+    账号:<input type="text" name="wanghanqing"><br>
+    密码:<input type="text" name="wanghanqing">
+  </form>
+  <!--密码 -->
+  <form>
+    Password:<input type="password" name="pwd">
+  </form>
+
+<!-- 多选框 -->
+  <form>
+  <input type="checkbox" name="vechicle" value="Bike">I have a bike<br>
+  <input type="checkbox" name="vechicle" value="Car">I have a car
+  </form>
+  <!--  提交按钮-->
+  <form name="input" action="html_form_action.php" method="get">
+  Username: <input type="text" name="user">
+  <input type="submit" value="Submit">
+  </form>
+<p>请选择你的车</p>
+<!--  下拉列表-->
+  <form action="">
+    <select name="cars">
+      <option value="BMW">BMW</option>
+        <option value="audi">audi</option>
+        <option value="saab">Saab</option>
+        <option value="QQ">QQ</option>
+        <option value="porsche">Porsche</option>
+        <option value="flat">Flat</option>
+      </select>
+  </form>
+
   <h1>这是我的个人主页</h1>
-  
+  <p>这是新增的一句话</p>
+  <h2>默认对齐的图片(align="bottom"):</h2>
+  <img src="images/1.jpg" alt="images" width="300" height="300">
+  <h2>图片使用 align:"middle":</h2>
+  <img src="images/b5cd394d5a81.JPG" alt="" width="300" height="300">
+  <h2>图片使用 align:"middle":</h2>
+  <img src="images/computer_guy.jpg" alt="" width="300" height="300">
+
 </body>
 </html>
