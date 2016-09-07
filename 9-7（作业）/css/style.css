@@ -1,0 +1,233 @@
+html,body{
+  height: 100%;
+}
+body{
+  background-image: url('../images/73578b8620e4def.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+}
+
+nav{
+  text-align: center;
+  background-color: #23d950;
+  width: 100%;
+  display: inline-block;
+  height: 30px;
+}
+nav a{
+  color: #5640de;
+  margin: 10px 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav p{
+  font-size: 16px;
+
+}
+.main{
+  width: 90%;
+  margin-left: 5%;
+}
+.main1{
+  width: 90%;
+  margin-left: 5%;
+}
+.main2{
+  width: 90%;
+  margin-left: 5%;
+}
+.main3{
+  width: 90%;
+  margin-left: 5%;
+}
+.content1{
+  margin-right: -10px;
+  margin-top: 10px;
+  width: 40%;
+  border-style: solid 5px #666666;
+  float: right;
+  text-align: left;
+  color: #000;
+
+}
+.content2{
+  margin-right: 200px;
+  margin-top: -30px;
+  width: 40%;
+  border-style: solid 5px #666666;
+  float: left;
+  text-align: left;
+  color: #000;
+}
+.content3{
+margin-left: 300px;
+  margin-top: -30px;
+  width: 40%;
+  border-style: solid 5px #666666;
+  float: right;
+  text-align: left;
+  color: #000;
+}
+.content4{
+  margin-right: 200px;
+  margin-top: 20px;
+  width: 40%;
+  border-style: solid 5px #666666;
+  float: left;
+  text-align: left;
+  color: #000;
+}
+.content1 p{
+  font-size: 15px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.content2 p{
+  font-size: 15px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.content3 p{
+  font-size: 15px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.content4 p{
+  font-size: 15px;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+.left-view1{
+margin-top: -40px;
+  /*设置背景图片 url表示图片路径，路径前加两个点 ../*/
+  background-image: url('../images/1.jpg');
+  background-size: contain;;
+  /*设置图片不重复，只有一张图*/
+  background-repeat: no-repeat;
+  width: 55%;
+  height: 300px;
+  /*浮动到左侧*/
+  float: left;
+  /* 设置背景图片的位置 left right center等
+    可以设置固定的数值 或者百分比（基于容器的）
+  */
+  background-position: center;
+}
+.right-view1{
+  margin-top: -260px;
+  /*设置背景图片 url表示图片路径，路径前加两个点 ../*/
+  background-image: url('../images/2.jpg');
+
+  background-size: contain;;
+  /*设置图片不重复，只有一张图*/
+  background-repeat: no-repeat;
+  width: 55%;
+  height: 300px;
+  /*浮动到左侧*/
+  float: right;
+  /* 设置背景图片的位置 left right center等
+    可以设置固定的数值 或者百分比（基于容器的）
+  */
+  background-position: center;
+
+}
+.left-view2{
+  margin-top: -215px;
+  margin-left: 10px;
+  background-image: url('../images/3.jpg');
+  background-size: contain;;
+  /*设置图片不重复，只有一张图*/
+  background-repeat: no-repeat;
+  width: 55%;
+  height: 220px;
+  /*浮动到左侧*/
+  float: left;
+  /* 设置背景图片的位置 left right center等
+    可以设置固定的数值 或者百分比（基于容器的）
+  */
+  background-position: center;
+}
+.right-view2{
+  margin-top: -210px;
+  background-image: url('../images/4.jpg');
+
+  background-size: contain;;
+  /*设置图片不重复，只有一张图*/
+  background-repeat: no-repeat;
+  width: 55%;
+  height: 300px;
+  /*浮动到左侧*/
+  float: right;
+  /* 设置背景图片的位置 left right center等
+    可以设置固定的数值 或者百分比（基于容器的）
+  */
+  background-position: center;
+}
+.icons-container{
+  clear: both;
+  width: 100%;
+  border: soild 5px #999999;
+}
+.icons{
+  width: 120px;
+  height: 80px;
+  background-image: url('../images/月饼3.jpg');
+  background-repeat: no-repeat;
+  background-size: 300%;
+  display: inline-block;
+  margin: 0 0;
+}
+.icons-1{
+  margin-top: 10px;
+
+  background-position: -15px -15px;
+}
+.icons-2{
+  background-position: -100px -37px;
+}
+.icons-3{
+  background-position: -200px -73px;
+}
+.go-top{
+  color: #fff;
+  font-size: 16px;
+  position: fixed;
+  top: 550px;
+  right: 20px;
+  text-decoration: none;
+  background-color: #666666;
+  opacity: 0.8;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+}
+.go-top a{
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+  display: inline-block;
+}
+.footer{
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  font-size: 14px;
+}
