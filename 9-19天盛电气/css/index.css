@@ -1,0 +1,251 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.top_left {
+    background-image: url('../images/1.png');
+    height: 50px;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    float: left;
+}
+
+.top_left span {
+    font-family: "[MicrosoftYaHei]";
+    font-weight: bold;
+    color: #fff;
+    font-size: 22px;
+    position: relative;
+    top: 17px;
+}
+
+.top_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    background-image: url('../images/3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 40%;
+}
+
+.top_right img {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.top_right span {
+    color: #fff;
+    font-family: "[MicrosoftYaHei]";
+    font-size: 13px;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+
+.top_right label {
+    color: #fff;
+    font-family: "[MicrosoftYaHei]";
+    font-size: 14px;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+}
+
+main .bg {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../images/21.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 557px;
+    width: 100%;
+}
+
+main .bg img {
+    position: relative;
+    top: 230px;
+    left: 0;
+    height: 300px;
+    width: 240px;
+}
+
+main .section {
+    flex-wrap: wrap;
+    display: flex;
+    height: 390px;
+    width: 250px;
+    /*margin-left: 140px;
+  margin-top: 100px;*/
+    position: absolute;
+    left: 37%;
+    top: 160px;
+    z-index: 999;
+}
+
+main .section1 {
+    position: relative;
+    background-image: url('../images/9.png');
+    height: 110px;
+    width: 110px;
+}
+
+main .section2 {
+    background-image: url('../images/9.png');
+    height: 110px;
+    width: 110px;
+    margin-left: 10px;
+}
+
+main .section3 {
+    background-image: url('../images/9.png');
+    height: 110px;
+    width: 110px;
+}
+
+main .section4 {
+    background-image: url('../images/9.png');
+    height: 110px;
+    width: 110px;
+    margin-left: 10px;
+}
+
+main .section5 {
+    background-image: url('../images/9.png');
+    height: 110px;
+    width: 110px;
+}
+
+main .section6 {
+    background-image: url('../images/9.png');
+    height: 110px;
+    width: 110px;
+    margin-left: 10px;
+}
+
+main .section1 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+main .section2 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+main .section3 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+main .section4 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+main .section5 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+main .section6 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+main span {
+    color: #fff;
+    font-family: "[MicrosoftYaHei]";
+    font-size: 16px;
+}
+
+main .section1 span {
+    position: relative;
+    left: -15px;
+    top: 50px;
+}
+
+main .section2 span {
+    position: relative;
+    left: -15px;
+    top: 50px;
+}
+
+main .section3 span {
+    position: relative;
+    left: -15px;
+    top: 50px;
+}
+
+main .section4 span {
+    position: relative;
+    left: -15px;
+    top: 50px;
+}
+
+main .section5 span {
+    position: relative;
+    left: -15px;
+    top: 50px;
+}
+
+main .section6 span {
+    position: relative;
+    left: -15px;
+    top: 50px;
+}
+
+footer {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.foot_bg {
+    background-color: #033E81;
+    height: 60px;
+    width: 100%;
+    margin: 0;
+}
+
+.foot_bg li {
+    padding: 0;
+    float: left;
+    /*text-align: center;*/
+    /*justify-content: space-between;*/
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    width: 24%;
+    position: relative;
+    top: 11px;
+    left: 10px;
+}
