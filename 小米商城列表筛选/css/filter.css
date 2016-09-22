@@ -1,0 +1,79 @@
+html,body{
+  height: 100%;
+}
+
+body{
+  font-size: .2rem;
+  color: #000;
+}
+*{
+  box-sizing: border-box;
+}
+div{
+  display: block;
+}
+
+input{
+  height: 30px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  border: solid 2px #000;
+}
+.list{
+  background-color: #fff;
+  padding-bottom: 1rem;
+}
+.list .item{
+  display: -webkit-box;
+  -webkit-box-align:center;
+  padding: .3rem 0;
+  border: solid 1px #F2F2F2;
+}
+.list .img{
+  width: 8rem;
+  height: 8rem;
+  position: relative;
+  top: 25px;
+}
+.list .img .ico{
+  width: 100%;
+}
+.list .img .tag{
+  position: absolute;
+  top: 15px;
+  width: 4rem;
+  height: 4rem;
+  bottom: 0;
+  left: .1rem;
+  opacity: .9!important;
+  z-index: 2;
+}
+.list .info{
+  -webkit-box-flex:1;
+  width: 100%;
+  margin-right: .2rem;
+}
+.list .name{
+  font-size: 17px;
+  color: #000;
+  margin-bottom: .1rem;
+}
+.list .brief{
+  font-size: .26rem;
+  line-height: .90rem;
+  color: #969696;
+  margin-bottom: .12rem;
+}
+.list .price{
+  font-size: .28rem;
+  color: #FE4900;
+}
+p{
+
+  display: block;
+  -webkit-margin-before:1em;
+  -webkit-margin-after:1em;
+  -webkit-margin-start:0px;
+  -webkit-margin-end:0px;
+}
